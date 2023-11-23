@@ -9,7 +9,7 @@ Existing data-driven low-light image enhancement (LIE) methods require large amo
 
 ### Requirements
 For optimal usage of this code, it is recommended to install the following packages:
-- Python 3
+- Python 3.6
 - torch 1.10.1
 - torchvision 0.11.2
 - sympy 1.9
@@ -20,3 +20,9 @@ For optimal usage of this code, it is recommended to install the following packa
 - opencv-python 4.5.2
 
 ## Usage
+### Training DP-LIE-M:
+- python run_DPLIEM.py (will be released soon!)
+### Testing DP-LIE-M:
+- python test_DPLIEM.py --model_path './chinkpoint/model.pth.tar' --dataset_dir './dataset/' --evaldata_list 'Demo.txt' --output_image_path 'Output/DP-LIE-M/' 
+### Training/testing DP-LIE-S:
+- python run_DPLIES.py --dataset_dir './dataset/' --evaldata_list 'Demo.txt' --evaldata_list 'Demo.txt' --output_image_path 'Output/DP-LIE-S/' --nEpochs 200
