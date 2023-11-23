@@ -69,11 +69,11 @@ Pair the corresponding low-light images and their ground truth images (if availa
 data/normal_light/test1.png data/low_light/test1.png
 data/normal_light/test2.png data/low_light/test2.png
 data/normal_light/test3.png data/low_light/test3.png
-...```
+...
 
 For non-reference (no ground truth) datasets, both columns can list low-light images as:
-```plaintext
+
 data/low_light/test1.png data/low_light/test1.png
 data/low_light/test2.png data/low_light/test2.png
 data/low_light/test3.png data/low_light/test3.png
-...```
+...
