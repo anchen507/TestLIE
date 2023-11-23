@@ -26,3 +26,50 @@ For optimal usage of this code, it is recommended to install the following packa
 - python test_DPLIEM.py --model_path './chinkpoint/model.pth.tar' --dataset_dir './dataset/' --evaldata_list 'Demo.txt' --output_image_path 'Output/DP-LIE-M/' 
 ### Training/testing DP-LIE-S:
 - python run_DPLIES.py --dataset_dir './dataset/' --evaldata_list 'Demo.txt' --evaldata_list 'Demo.txt' --output_image_path 'Output/DP-LIE-S/' --nEpochs 200
+
+## Data Preparation
+
+### Dataset Description
+
+This code is designed to work with the following datasets:
+
+- LOL-test
+- LOL-real
+- DICM
+- VV
+- MEF
+- LIME
+- NPE
+
+### Downloading the Datasets
+
+1. **Download the Datasets**:
+
+   Download the LOL-test, LOL-real, DICM, VV, MEF, LIME, and NPE datasets from their respective sources. Place the downloaded datasets in a directory named `data`.
+
+### Data Organization
+
+2. **Dataset Structure**:
+
+   Organize the downloaded datasets in the `data` directory as follows:
+
+   ```plaintext
+   data/
+   ├── LOL-test/
+   ├── LOL-real/
+   ├── DICM/
+   ├── VV/
+   ├── MEF/
+   ├── LIME/
+   ├── NPE/
+3. **Generate datalist**：
+Pair the corresponding low-light images and their ground truth images (if available) in a format similar to 'Demo.txt':
+data/normal_light/test1.png data/low_light/test1.png
+data/normal_light/test2.png data/low_light/test2.png
+data/normal_light/test3.png data/low_light/test3.png
+...
+For non-reference (no ground truth) datasets, both columns can list low-light images as:
+data/low_light/test1.png data/low_light/test1.png
+data/low_light/test2.png data/low_light/test2.png
+data/low_light/test3.png data/low_light/test3.png
+...
