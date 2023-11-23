@@ -64,11 +64,13 @@ This code is designed to work with the following datasets:
    ├── NPE/
 3. **Generate datalist**：
 Pair the corresponding low-light images and their ground truth images (if available) in a format similar to 'Demo.txt':
+```plaintext
 data/normal_light/test1.png data/low_light/test1.png
 data/normal_light/test2.png data/low_light/test2.png
 data/normal_light/test3.png data/low_light/test3.png
 ...
 For non-reference (no ground truth) datasets, both columns can list low-light images as:
+```plaintext
 data/low_light/test1.png data/low_light/test1.png
 data/low_light/test2.png data/low_light/test2.png
 data/low_light/test3.png data/low_light/test3.png
