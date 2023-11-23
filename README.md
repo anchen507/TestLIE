@@ -20,7 +20,7 @@ For optimal usage of this code, it is recommended to install the following packa
 - opencv-python 4.5.2
 
 ## Usage
-### Training DP-LIE-M:
+### Training DP-LIE-M: 
 - python run_DPLIEM.py (will be released soon!)
 
 ### Testing DP-LIE-M:
