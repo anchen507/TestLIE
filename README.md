@@ -21,12 +21,16 @@ For optimal usage of this code, it is recommended to install the following packa
 
 ## Usage
 ### Training DP-LIE-M:
-- python run_DPLIEM.py (will be released soon!)
+```plaintext
+python run_DPLIEM.py (will be released soon!)
+
 ### Testing DP-LIE-M:
-- python test_DPLIEM.py --model_path './chinkpoint/model.pth.tar' --dataset_dir './dataset/' --evaldata_list 'Demo.txt' --output_image_path 'Output/DP-LIE-M/' 
+```plaintext
+python test_DPLIEM.py --model_path './chinkpoint/model.pth.tar' --dataset_dir './dataset/' --evaldata_list 'Demo.txt' --output_image_path 'Output/DP-LIE-M/' 
 ### Training/testing DP-LIE-S:
-- python run_DPLIES.py --dataset_dir './dataset/' --evaldata_list 'Demo.txt' --evaldata_list 'Demo.txt' --output_image_path 'Output/DP-LIE-S/' --nEpochs 200
-- 
+```plaintext
+python run_DPLIES.py --dataset_dir './dataset/' --evaldata_list 'Demo.txt' --evaldata_list 'Demo.txt' --output_image_path 'Output/DP-LIE-S/' --nEpochs 200
+
 ## Data Preparation
 
 ### Dataset Description
