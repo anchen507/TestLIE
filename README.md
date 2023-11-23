@@ -41,13 +41,11 @@ This code is designed to work with the following datasets:
 - LIME
 - NPE
 
-### Downloading the Datasets
+### Data Organization
 
 1. **Download the Datasets**:
 
    Download the LOL-test, LOL-real, DICM, VV, MEF, LIME, and NPE datasets from their respective sources. Place the downloaded datasets in a directory named `data`.
-
-### Data Organization
 
 2. **Dataset Structure**:
 
