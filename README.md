@@ -9,16 +9,21 @@ For optimal usage of this code, it is recommended to install the following packa
 - pyiqa 0.1.7
 - matplotlib 3.3.4
 - opencv-python 4.5.2
+  
+## Pretrained model
+- The chinkpoint will be released after acceptance!
 
 ## Usage
 ### Training DP-LIE-M: 
-- python run_DPLIEM.py (will be released soon!)
+- python run_DPLIEM.py (will be released after acceptance!)
 
 ### Testing DP-LIE-M:
 - python test_DPLIEM.py --model_path './chinkpoint/model.pth.tar' --dataset_dir './dataset/' --evaldata_list 'Demo.txt' --output_image_path 'Output/DP-LIE-M/' 
 
 ### Training/testing DP-LIE-S:
-- python run_DPLIES.py --dataset_dir './dataset/' --evaldata_list 'Demo.txt' --evaldata_list 'Demo.txt' --output_image_path 'Output/DP-LIE-S/' --nEpochs 200
+- python run_DPLIES.py --dataset_dir './dataset/' --evaldata_list 'Demo.txt'  --output_image_path 'Output/DP-LIE-S/' --nEpochs 200
+
+python run_DPLIES.py --dataset_dir './../../data/' --evaldata_list 'LOL-V1_test.txt' --output_image_path 'Output/DP-LIE-S/' --nEpochs 200
 
 ## Data Preparation
 
