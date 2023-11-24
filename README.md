@@ -1,3 +1,8 @@
+## Notice
+
+The code provided here is not executable and is solely meant to offer additional insight into the implementation details of DP-LIE. 
+The complete and executable code will be released to the public following the acceptance of the paper.
+
 ## Requirements
 For optimal usage of this code, it is recommended to install the following packages:
 - Python 3.6
